@@ -1,0 +1,54 @@
+.myBG {
+    height: 100vh;
+    background-image: url(../assets/images/bg/bios.png);
+    background-size: cover;
+}
+
+.intro {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.trending{
+    height: auto;
+    background-image: url(../assets/images/bg/black.png);
+    background-size: cover;
+}
+
+.movieImage {
+    height: auto;
+    background-color: black;
+    margin: 5px;
+    padding: 3px;
+}
+
+.images{
+    height: 290px;
+}
+
+.movieSuper {
+    height: auto;
+    background-color: black;
+    margin: 5px;
+    padding: 3px;
+}
+
+.superhero{
+    height: auto;
+    background-image: url(../assets/images/bg/angkasa.png);
+    background-size: cover;
+}
+
+.super{
+    height: 290px;
+}

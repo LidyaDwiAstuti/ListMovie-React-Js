@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css"
+import NavigationBar from "./components/NavigationBar"
+import Intro from "./components/Intro"
+import Trending from "./components/Trending"
+import SuperHero from "./components/SuperHero"
+import "./style/landingPage.css"
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            {/* Intro section */}
+            <div className="myBG">
+                <NavigationBar />
+                <Intro />
+            </div>
+            {/* End of Intro */}
+
+            {/* Trending section */}
+            <div className="trending">
+                <Trending />
+            </div>
+            {/* End of Trending */}
+
+            {/* Superhero section */}
+            <div className="superhero">
+                <SuperHero />
+            </div>
+            {/* End of SuperHero */}
+        </div>
+    )
 }
 
-export default App;
+export default App
